@@ -1,9 +1,11 @@
 import React from 'react';
 
-export class Image extends React.Component {
+class Image extends React.Component {
 	render() {
 		return (
 			<h1>Hello, World!</h1>
 		)
 	}
 }
+
+export { Image };

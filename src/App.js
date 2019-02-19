@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Image } from './Image';
+import { Menu } from './Menu';
 
 const IMAGES = {
   coronation: "./imgs/coronation.jpg",
@@ -15,6 +16,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Image />
+        <Menu />
         <img src={IMAGES.coronation} />
       </div>
     );
