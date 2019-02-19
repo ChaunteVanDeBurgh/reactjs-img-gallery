@@ -25,8 +25,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Image />
-        <Menu />
+        <Image src={this.state.src} />
+        <Menu chooseImage={this.chooseImage} />
         <img src={IMAGES.coronation} />
       </div>
     );
