@@ -12,6 +12,16 @@ const IMAGES = {
 }
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.chooseImage = this.chooseImage.bind(this);
+    this.state = { src: IMAGES.coronation }
+  }
+  chooseImage(newImage) {
+    this.setState({
+      src: IMAGES[newImage]
+    });
+  }
   render() {
     return (
       <div className="App">
