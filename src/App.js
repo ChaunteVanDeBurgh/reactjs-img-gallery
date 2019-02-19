@@ -8,7 +8,7 @@ const IMAGES = {
   horseman: "./imgs/horseman.jpg",
   intervention: "./imgs/intervention.jpg",
   oath: "./imgs/oath.jpg",
-  recamier: "./imgs/racamier.jpg"
+  recamier: "./imgs/recamier.jpg"
 }
 
 class App extends React.Component {
