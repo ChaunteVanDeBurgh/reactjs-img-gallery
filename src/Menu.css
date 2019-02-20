@@ -1,0 +1,16 @@
+#menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(234, 211, 255);
+	padding: 1rem;
+	margin-bottom: .5rem;
+}
+
+form {
+	display: flex;
+}
+
+.form-label {
+	padding-right: 1rem;
+}

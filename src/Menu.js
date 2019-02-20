@@ -1,4 +1,5 @@
 import React from 'react';
+import './Menu.css';
 
 class Menu extends React.Component {
 	constructor(props){
@@ -11,18 +12,18 @@ class Menu extends React.Component {
 	}
 	render() {
 		return (
-			<div>
+			<div id="menu">
 				<form onClick={this.handleClick}>
 					<input type="radio" name="src" value="coronation" />
-						coronation
+						<span class="form-label">coronation</span> 
 					<input type="radio" name="src" value="horseman" />
-						horseman
+						<span class="form-label">horseman</span>
 					<input type="radio" name="src" value="intervention" />
-						intervention
+						<span class="form-label">intervention</span>
 					<input type="radio" name="src" value="oath" />
-						oath
+						<span class="form-label">oath</span>
 					<input type="radio" name="src" value="recamier" />
-						recamier
+						<span class="form-label">recamier</span>
 				</form>
 			</div>
 		)
