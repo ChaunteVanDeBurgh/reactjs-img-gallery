@@ -9,8 +9,17 @@
 
 form {
 	display: flex;
+	align-items: center;
 }
 
 .form-label {
+	display: flex;
+	align-items: center;
 	padding-right: 1rem;
+	padding-left: 1rem;
+	height: 2rem;
+}
+
+.form-label:hover {
+	background-color: rgb(160, 196, 255);
 }
